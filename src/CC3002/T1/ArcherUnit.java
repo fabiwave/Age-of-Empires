@@ -19,7 +19,7 @@ public class ArcherUnit extends Unit {
     }
 
     public void attackedByInfantryUnit(InfantryUnit soldier) {
-        this.getHit(soldier.getAttackPoints(), (float) 1.0);
+        this.getHit(soldier.getAttackPoints(), (float) 1.2);
     }
 
     public void attackedByArcherUnit(ArcherUnit bowman) {
@@ -27,7 +27,7 @@ public class ArcherUnit extends Unit {
     }
 
     public void attackedByCavalry(CavalryUnit horseman) {
-        this.getHit(horseman.getAttackPoints(), (float) 1.0);
+        this.getHit(horseman.getAttackPoints(), (float) 1.5);
     }
 
     public void attackedBySiegeUnit(SiegeUnit bigWeapon) {
@@ -35,7 +35,7 @@ public class ArcherUnit extends Unit {
     }
 
     public void attackedByVillager(Villager peasant) {
-        this.getHit(peasant.getAttackPoints(), (float) 0.8);
+        this.getHit(peasant.getAttackPoints(), (float) 1.0);
     }
 
     public void attackedByMonk(Monk priest) {

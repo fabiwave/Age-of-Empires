@@ -2,7 +2,7 @@ package CC3002.T1;
 
 public class Castle extends Building implements Attacker {
 
-    public int attackPoints;
+    private int attackPoints;
 
     public Castle() {
         this.hitPoints = 4800;
@@ -15,10 +15,6 @@ public class Castle extends Building implements Attacker {
         if (this.isAlive()) {
             something.attackedByCastle(this);
         }
-    }
-
-    public void setAttackPoints(int points) {
-        this.attackPoints = points;
     }
 
     @Override

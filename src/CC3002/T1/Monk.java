@@ -5,7 +5,7 @@ public class Monk extends Unit {
     public Monk() {
         this.hitPoints = 30;
         this.maxHitPoints = (2 * this.hitPoints);
-        this.attackPoints = 15;
+        this.attackPoints = 10;
     }
 
     @Override
@@ -19,19 +19,19 @@ public class Monk extends Unit {
     }
 
     public void attackedByInfantryUnit(InfantryUnit soldier) {
-        this.getHit(soldier.getAttackPoints(), (float) 100000.0);
+        this.setHitPoints(0);
     }
 
     public void attackedByArcherUnit(ArcherUnit bowman) {
-        this.getHit(bowman.getAttackPoints(), (float) 100000.0);
+        this.setHitPoints(0);
     }
 
     public void attackedByCavalry(CavalryUnit horseman) {
-        this.getHit(horseman.getAttackPoints(), (float) 100000.0);
+        this.setHitPoints(0);
     }
 
     public void attackedBySiegeUnit(SiegeUnit bigWeapon) {
-        this.getHit(bigWeapon.getAttackPoints(), (float) 100000.0);
+        this.setHitPoints(0);
     }
 
     public void attackedByVillager(Villager peasant) {
@@ -43,7 +43,7 @@ public class Monk extends Unit {
     }
 
     public void attackedByCastle(Castle fort) {
-        this.getHit(fort.getAttackPoints(), (float) 100000.0);
+        this.setHitPoints(0);
     }
 
 }
