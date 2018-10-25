@@ -1,6 +1,11 @@
 package CC3002.T1;
 
-public abstract class Unit extends AgeOfEmpireObjects implements Attackable, Attacker {
+/**
+ * Represent an Unit in the game
+ *
+ * @author Fabiola Rivera
+ */
+public abstract class Unit extends AgeOfEmpiresObjects implements Attackable, Attacker {
     public int attackPoints;
 
     //Methods related to the condition attacker

@@ -1,6 +1,15 @@
 package CC3002.T1;
 
+/**
+ * Creates a siege unit
+ *
+ * @author Fabiola Rivera
+ */
+
 public class SiegeUnit extends Unit {
+    /**
+     * Constructor of the SiegeUnit, all methods are defined in the parent class
+     */
 
     public SiegeUnit() {
         this.hitPoints = 140;

@@ -1,6 +1,15 @@
 package CC3002.T1;
 
+/**
+ * Creates a Barrack
+ *
+ * @author Fabiola Rivera
+ */
+
 public class Barracks extends Building {
+    /**
+     * Constructor of the Barrack, all methods are defined in the parent class
+     */
 
     public Barracks() {
         this.hitPoints = 350;

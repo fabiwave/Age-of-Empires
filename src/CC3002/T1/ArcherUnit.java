@@ -1,7 +1,16 @@
 package CC3002.T1;
 
+/**
+ * Creates an Archer
+ *
+ * @author Fabiola Rivera
+ */
+
 public class ArcherUnit extends Unit {
 
+    /**
+     * Constructor of the ArcherUnit, all methods are defined in the parent class
+     */
     public ArcherUnit() {
         this.hitPoints = 30;
         this.maxHitPoints = (2 * this.hitPoints);

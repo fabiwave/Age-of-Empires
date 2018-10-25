@@ -1,7 +1,15 @@
 package CC3002.T1;
 
+/**
+ * Creates an Infantry unit
+ *
+ * @author Fabiola Rivera
+ */
 public class InfantryUnit extends Unit {
 
+    /**
+     * Constructor of the InfantryUnit, all methods are defined in the parent class
+     */
     public InfantryUnit() {
         this.hitPoints = 40;
         this.maxHitPoints = 2 * this.hitPoints;

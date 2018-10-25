@@ -1,8 +1,18 @@
 package CC3002.T1;
 
+/**
+ * Creates a Castle
+ *
+ * @author Fabiola Rivera
+ */
+
 public class Castle extends Building implements Attacker {
 
     private int attackPoints;
+
+    /**
+     * Constructor of the Castle, all methods are defined in the parent class or the Attacker interface
+     */
 
     public Castle() {
         this.hitPoints = 4800;

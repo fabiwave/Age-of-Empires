@@ -1,7 +1,16 @@
 package CC3002.T1;
 
+/**
+ * Creates a Cavalry unit
+ *
+ * @author Fabiola Rivera
+ */
+
 public class CavalryUnit extends Unit {
 
+    /**
+     * Constructor of the CavalryUnit, all methods are defined in the parent class
+     */
     public CavalryUnit() {
         this.hitPoints = 60;
         this.maxHitPoints = 2 * this.hitPoints;

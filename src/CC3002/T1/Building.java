@@ -1,6 +1,12 @@
 package CC3002.T1;
 
-public abstract class Building extends AgeOfEmpireObjects implements Attackable {
+/**
+ * Represents a Building in the game
+ *
+ * @author Fabiola Rivera
+ */
+
+public abstract class Building extends AgeOfEmpiresObjects implements Attackable {
 
     //Methods related to the types of buildings
     public abstract void attackedByCastle(Castle fort);

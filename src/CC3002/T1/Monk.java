@@ -1,6 +1,15 @@
 package CC3002.T1;
 
+/**
+ * Creates a monk
+ *
+ * @author Fabiola Rivera
+ */
+
 public class Monk extends Unit {
+    /**
+     * Constructor of the monk, all methods are defined in the parent class
+     */
 
     public Monk() {
         this.hitPoints = 30;

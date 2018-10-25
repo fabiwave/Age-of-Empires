@@ -1,6 +1,15 @@
 package CC3002.T1;
 
+/**
+ * Creates a Villager
+ *
+ * @author Fabiola Rivera
+ */
 public class Villager extends Unit {
+
+    /**
+     * Constructor of the villager, all methods are defined in the parent class
+     */
 
     public Villager() {
         this.hitPoints = 20;
