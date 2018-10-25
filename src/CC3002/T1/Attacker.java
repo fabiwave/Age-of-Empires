@@ -1,6 +1,7 @@
 package CC3002.T1;
 
 public interface Attacker {
-    public void attack();
-    public float getAttackPoints();
+    public void attack(Attackable something);
+
+    public int getAttackPoints();
 }
