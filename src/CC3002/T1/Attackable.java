@@ -46,42 +46,49 @@ public interface Attackable {
 
     /**
      * Handles an attack from an InfantryUnit
+     *
      * @param soldier the attacker InfantryUnit
      */
     public void attackedByInfantryUnit(InfantryUnit soldier);
 
     /**
      * Handles an attack from an ArcherUnit
+     *
      * @param archer the attacker ArcherUnit
      */
     public void attackedByArcherUnit(ArcherUnit archer);
 
     /**
      * Handles an attack from a CavalryUnit
+     *
      * @param horseman the attacker CavalryUnit
      */
     public void attackedByCavalry(CavalryUnit horseman);
 
     /**
      * Handles an attack from a SiegeUnit
+     *
      * @param bigWeapon the attacker SiegeUnit
      */
     public void attackedBySiegeUnit(SiegeUnit bigWeapon);
 
     /**
      * Handles an attack from a Monk
+     *
      * @param priest the attacker Monk
      */
     public void attackedByMonk(Monk priest);
 
     /**
      * Handles an attack from a Villager
+     *
      * @param peasant the attacker Villager
      */
     public void attackedByVillager(Villager peasant);
 
     /**
      * Handles an attack from a Castle
+     *
      * @param fort the attacker Castle
      */
     public void attackedByCastle(Castle fort);

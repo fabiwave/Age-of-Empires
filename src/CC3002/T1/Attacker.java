@@ -8,12 +8,14 @@ package CC3002.T1;
 public interface Attacker {
     /**
      * Attacks an attackable object
+     *
      * @param something object to attack
      */
     public void attack(Attackable something);
 
     /**
      * Returns the attack points of an object
+     *
      * @return Attack Points
      */
     public int getAttackPoints();
